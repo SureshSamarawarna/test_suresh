@@ -1,8 +1,58 @@
 #div-1{
-    background-color: aqua;
-    color: aquamarine;
+    display: grid;
+    height: 60.5px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+
+    a{
+        color: rgba(248, 161, 126, 1);
+    }
+    
 }
 
-h1{
-    color: chartreuse;
+#nav-bar{
+    height: 37.5px;
+    background-color:rgba(137, 142, 143, 1) !important;
+}
+.nav-item{
+    height:  37.5px;
+    a{
+        color: white !important;
+    }
+    :hover{
+        background-color: rgba(117, 145, 153, 1);
+        height:  37.5px;
+        color: rgb(0, 0, 0) !important;
+    }
+}
+
+#welcome-image{
+    position: relative;
+    
+}
+
+#welcome-box{
+    position: absolute;
+    background-color: black;
+    height: 145px;
+    width: 306px;
+    right: 42px;
+    bottom: 18px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    p{
+        color: white;
+        font-size: 40px;
+        line-height: 80%;
+
+        span{
+            color: rgba(248, 161, 126, 1) ;
+            font-size: 23px;
+            line-height: 90%;
+        }
+    }
+        
+    
 }

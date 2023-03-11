@@ -13,22 +13,69 @@
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1 class="">YOURCOMPANYNAME</h1>
 
-    <h3>
-        Fancy display heading
-        <small class="text-muted">With faded secondary text</small>
-    </h3>
+    <div class="pl-3" id="div-1">
+        <a class="">YOURCOMPANYNAME</a>
+    </div >
 
-    <div >
-        <div id="div-1">
-            <h1 class="">YOURCOMPANYNAME</h1>
+    <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+            
+            <li class="nav-item active">
+                <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">SERVICES</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">TESTIMONIALS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTACTS</a>
+            </li>
+
+            <li class="nav-item dropdown ">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+            </li>
+            </ul>
         </div>
-        <div></div>
-        <div></div>
+    </nav>
 
+    <div id="welcome-image">
+        <img src="https://officesnapshots.com/wp-content/uploads/2018/07/rfa-architects-offices-sydney-10-1200x800.jpg" 
+        alt="welcome image" width="100%" height="347px" style="object-fit: cover;">
+        <div id="welcome-box">
+            <p>WELCOME TO  <br> <span>YOURCOMPANYNAME</span></p>
+        </div>
     </div>
+
+
+    
+    
     
 </body>
+<footer>
+    <div>
+        <p>Copyright@2019 Your companyname All rights reserved</p>
+    </div>
+</footer>
 </html>
 
