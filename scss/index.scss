@@ -12,13 +12,13 @@
 }
 
 #nav-bar{
-    height: 37.5px;
-    background-color:rgba(137, 142, 143, 1) !important;
+    position: relative;
 }
 .nav-item{
     height:  37.5px;
     a{
         color: white !important;
+        font-size: small;
     }
     :hover{
         background-color: rgba(117, 145, 153, 1);
@@ -26,6 +26,20 @@
         color: rgb(0, 0, 0) !important;
     }
 }
+
+
+#lan-div{
+    height: 22.5px;
+    width: 141px;
+    background-color: white;
+    display: block;
+    align-self: center;
+    right: 10px;
+    position: absolute;
+    right: 30px;
+}
+
+
 
 #welcome-image{
     position: relative;
@@ -39,20 +53,93 @@
     width: 306px;
     right: 42px;
     bottom: 18px;
+    opacity: 50%;
+    
+        
+    
+}
+
+#welcome-text{
+    position: absolute;
+    height: 145px;
+    width: 306px;
+    right: 42px;
+    bottom: 18px;
     display: grid;
     align-items: center;
     justify-content: center;
-    p{
-        color: white;
-        font-size: 40px;
-        line-height: 80%;
 
-        span{
-            color: rgba(248, 161, 126, 1) ;
-            font-size: 23px;
-            line-height: 90%;
-        }
-    }
-        
+    color: white;
+    font-size: 40px;
+    line-height: 80%;
     
+
+    span{
+        color: rgba(248, 161, 126, 1) ;
+        font-size: 23px;
+        line-height: 90%;
+    }
+}
+
+#headings{
+    height: 344.5px;
+ 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+   
+
+}
+#headings>div{      
+    width: 610px;
+    height: 210px;
+    
+    text-align: center;
+    padding-top: 30px;
+    p{
+        padding-top: 20px;
+    }
+    
+    
+}
+
+
+#cards{
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.card{
+    display: grid;
+    align-items: center;
+    img{
+        height: 286px;
+        width: 223px;
+        text-align: center;
+    }
+    div{
+        height: 286px;
+        width: 223px;
+        text-align: center;
+    }
+}
+
+footer{
+    background-color: black;
+    
+    div{
+        padding-left: 100px;
+        padding-right: 100px;
+        color: white;
+        
+        p{
+            height: 44px;
+            font-size: small;
+            padding-top: 10px;
+                        
+        }
+
+    }
 }
