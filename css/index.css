@@ -36,9 +36,43 @@
   position: absolute;
   right: 30px;
 }
+#lan-div img {
+  z-index: 100;
+  display: block;
+  position: absolute;
+  right: 8PX;
+  top: 8pX;
+}
+
+#dropdown-content {
+  z-index: 99;
+  background-color: white;
+  display: none;
+  position: absolute;
+  top: 0px;
+}
+#dropdown-content div {
+  width: 141px;
+  height: 22.5px;
+  padding-left: 10px;
+  font-size: small;
+}
+
+#lan-div img:hover + #dropdown-content {
+  z-index: 99;
+  display: block;
+  position: absolute;
+}
+
+#dropdown-content:hover {
+  background-color: rgb(248, 161, 126);
+}
 
 #welcome-image {
   position: relative;
+}
+#welcome-image img {
+  z-index: -99;
 }
 
 #welcome-box {
